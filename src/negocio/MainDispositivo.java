@@ -1,7 +1,6 @@
 package negocio;
 
 public class MainDispositivo {
-
     public static void main() {
 
         System.out.println("\nNumero de Objetos antes de crearlos: " + Dispositivo.getTotalCreados());
@@ -18,12 +17,12 @@ public class MainDispositivo {
         System.out.println("ID: " + dispositivo1.getId());
         System.out.println("Nombre: " + dispositivo1.getNombre());
         System.out.println("Tipo: " + dispositivo1.getTipo());
-        System.out.println("-----------------------------------------");
+        System.out.println("");
 
         System.out.println("ID: " + dispositivo2.getId());
         System.out.println("Nombre: " + dispositivo2.getNombre());
         System.out.println("Tipo: " + dispositivo2.getTipo());
-        System.out.println("-----------------------------------------");
+        System.out.println("");
 
         System.out.println("ID: " + dispositivo3.getId());
         System.out.println("Nombre: " + dispositivo3.getNombre());
